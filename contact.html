@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCArch.</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <!--Menu-->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="/index.html">
+                <div class="img">
+                </div>
+            </a>
+            <button class="navbar-toggler btn-outline-secondary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-menu">
+                    <div>
+                        <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h3>
+                    </div>
+                    <div class="menu-item"><button id="page-close" class="page-close"></button></div>
+                </div>
+                <div class="offcanvas-body font-weight-bold">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" aria-current="page" href="/index.html">Ana sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" aria-current="page" href="/about.html">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="/projects.html">Projeler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="/services.html">Hizmetler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active menu-link" href="/contact.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header style="margin-top: 76px;">
+        <div class="container px-0">
+            <div class="container-fluid header-contact" style="background-image: url(/images/contact.jpg);">
+                <section class="text-center">
+                    <div class="row row-cols-lg-2 row-cols-md-1 row-cols-1 g-2">
+                        <div class="col">
+                            <div class="cont-left">
+                                <div class="cont-top">
+                                    <h1 class="mt-5">İletişim</h1>
+                                    <div class="cont-element">
+                                        <i class="far fa-address-card"></i>
+                                        <address>İstanbul / Türkiye</address>
+                                    </div>
+                                    <div class="cont-element">
+                                        <i class="far fa-envelope"></i>
+                                        <a href="mailto:bcarch@gmail.com">bcarch@gmail.com</a>
+                                    </div>
+
+                                    <div class="cont-element">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="Tel:+905474837837">+90-777-777-7777</a>
+                                    </div>
+                                </div>
+                                <div class="cont-bottom">
+                                    <a href="https://tr-tr.facebook.com/" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a href="https://twitter.com/home" target="_blank"><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a href="https://www.instagram.com/" target="_blank"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/feed/" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="cont-right">
+                                <form action="">
+                                    <input type="text" name="text" id="text" placeholder="Ad Soyad">
+                                    <input type="email" name="email" id="email" placeholder="E-mail">
+                                    <textarea name="message" id="message" rows="10"
+                                        placeholder="Mesajınız yazınız"></textarea>
+                                    <button class="btn-send">Gönder</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--Footer-->
+    <footer class="mt-5">
+        <nav class="navbar navbar-expand-lg justify-content-between" style="background:#b2b4b5;">
+            <div class="container-fluid justify-content-between" style="margin: 0 62.5px ;">
+                <a class="navbar-brand" href="/index.html">
+                    <div class="img"></div>
+                </a>
+                <div class="footer-link">
+                    <a href="https://tr-tr.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/index.html">Ana Sayfa</a>
+                        <a class="nav-link" href="/about.html">Hakkımızda</a>
+                        <a class="nav-link" href="/projects.html">Projeler</a>
+                        <a class="nav-link" href="/services.html">Hizmetler</a>
+                        <a class="nav-link" href="/contact.html">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div style="background:#eaeef2;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="copyright-right text-center">
+                            <p>© 2022 BCArch Design <a href="#">All Rights Reserved.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

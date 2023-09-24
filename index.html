@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCArch.</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+
+
+    <!--Menu-->
+    <nav class="navbar bg-body-tertiary fixed-top ">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="/index.html">
+                <div class="img">
+                </div>
+            </a>
+            <button class="navbar-toggler btn-outline-secondary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-menu">
+                    <div>
+                        <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h3>
+                    </div>
+                    <div class="menu-item"><button id="page-close" class="page-close"></button></div>
+                </div>
+                <div class="offcanvas-body font-weight-bold">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active menu-link" aria-current="page" href="/index.html">Ana sayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" aria-current="page" href="/about.html">Hakkımızda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="/projects.html">Projeler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="/services.html">Hizmetler</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link" href="/contact.html">İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header>
+        <div class="container px-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-3 px-0 justify-content-end align-items-end">
+                        <div class="main-text">
+                            <h3 style="font-size: 60px;">bizimle <br> tasarla <br> BCArch.</h3>
+                        </div>
+                    </div>
+                    <div class="col-9 px-0">
+                        <div class="slider ">
+                            <div class="slide active"
+                                style="background-image: url('/images/sapanca_villa_ana_sayfa.jpeg')"></div>
+                            <div class="slide" style="background-image: url('/images/villa2.jpeg')"></div>
+                            <div class="slide" style="background-image: url('/images/villa3.jpeg')"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main-->
+    <main>
+        <div class="container-fluid px-0 text-center">
+            <div class="start-project">
+                <a href="/services.html"><button type="button" class="btn btn-outline-secondary"> <i
+                            class="fa-solid fa-square-plus"></i> Proje Başlat</button></a>
+                <h4 class="mt-2 fw-3">Yenilikçi çözümlerimize ortak olmak için projenizi beraber tasarlayalım.</h4>
+            </div>
+        </div>
+        <div class="container-fluid px-0">
+            <div class="container my-4">
+                <h1 class="text-center pb-3">Projeler</h1>
+                <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 row-cols-1 g-2">
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="images/ic.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-center">
+                                <h4 class="card-title">Yaşam Alanları</h4>
+                                <p class="card-text"><a href="/projects.html" class="pt-0 ps-2">Görüntüle</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="images/villa3.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-center">
+                                <h4 class="card-title">Küçük Ölçekli</h4>
+                                <p class="card-text"><a href="/projects.html" class="pt-0 ps-2">Görüntüle</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-bg-dark">
+                            <img src="images/villa2.jpeg" class="card-img" alt="...">
+                            <div class="card-img-overlay text-center">
+                                <h4 class="card-title">Büyük Ölçekli</h4>
+                                <p class="card-text"><a href="/projects.html" class="pt-0 ps-2">Görüntüle</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <!--Footer-->
+    <footer class="mt-5">
+        <nav class="navbar navbar-expand-lg justify-content-between" style="background:#b2b4b5;">
+            <div class="container-fluid justify-content-between" style="margin: 0 62.5px ;">
+                <a class="navbar-brand" href="/index.html">
+                    <div class="img"></div>
+                </a>
+                <div class="footer-link">
+                    <a href="https://tr-tr.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/index.html">Ana Sayfa</a>
+                        <a class="nav-link" href="/about.html">Hakkımızda</a>
+                        <a class="nav-link" href="/projects.html">Projeler</a>
+                        <a class="nav-link" href="/services.html">Hizmetler</a>
+                        <a class="nav-link" href="/contact.html">İletişim</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div style="background:#eaeef2;">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="copyright-right text-center">
+                            <p>© 2022 BCArch Design <a href="#">All Rights Reserved.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
